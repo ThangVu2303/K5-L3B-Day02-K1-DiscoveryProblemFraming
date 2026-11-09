@@ -1,4 +1,4 @@
-# Báo cáo cá nhân — MSSV_HoTen
+# Báo cáo cá nhân — 2A202603796_NguyenDuyAnh
 
 > Đổi tên file theo quy tắc `MSSV_HoTen.md`, ví dụ `20241234_NguyenVanAn.md` (MSSV trước, dấu `_`, họ tên viết liền không dấu). Sửa cả dòng tiêu đề phía trên cho khớp.
 > Template chi tiết và prompt mẫu cho từng mục: [docs/01-worksheet.md](../../docs/01-worksheet.md).
@@ -141,16 +141,16 @@ Rủi ro AI "bịa" thông tin (Hallucination): Để câu văn mượt mà, AI 
 
 | Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
 |---|---|---|
-| Pitch Problem Card | Trình bày toàn bộ card | Vấn đề ổn nhưng thiéu chiều sâu, nên không dùng làm chính |
-| Phản biện bài của bạn khác| Câu hỏi tôi đã đặt: Đặt câu hỏi thực tế: "Làm sao hệ thống biết chính xác trong tủ lạnh đang có gì?| Nhóm nhận ra rủi ro rất lớn về Usability. Quyết định bổ sung giải pháp: Đầu vào chỉ cần chụp 1 bức ảnh tủ lạnh (dùng AI Vision)|
-| Nhận phản biện | Câu hỏi tôi nhận được: Câu hỏi tôi nhận được: "Nhà trường có cho phép đưa điểm và nhận xét của học sinh lên ChatGPT không| Tôi đã sửa gì: Thêm rủi ro Viability và bổ sung bước: "Ẩn danh hóa dữ liệu|
-| Gom cluster / cây OST | Gợi ý gom các candidate "Lọc CV", "Tổng hợp nhận xét", "Biên bản họp" vào chung Cluster: "Tổng hợp và trích xuất văn bản từ nhiều nguồn" | Giúp nhóm nhìn ra pattern chung là dùng mức can thiệp Workflow thay vì làm tự động hóa hoàn toàn |
-| Chọn candidate problem | Ủng hộ việc chọn vấn đề này vì impact về cả mặt thời gian lẫn chi phí đều rất thực tế | Nhóm thống nhất chọn làm Candidate chính vì vấn đề này so sánh được rất rõ các mức độ can thiệp (từ tra Google tay → ChatGPT gợi ý → app tự động lên thực đơn) |
-| Kiểm chứng / research | Phỏng vấn nhanh 2 người quen hay nấu ăn và tìm hiểu các app hiện có như SuperCook | Nhóm thu hẹp phạm vi: AI không chỉ gợi ý món, mà bắt buộc ưu tiên tiêu chí "dễ làm, dưới 30 phút, dùng 100% đồ đang có" |
-| Quy trình nhóm | Cùng nhóm vẽ quy trình nháp và xác định chính xác Bottleneck nằm ở bước "Đứng nhìn tủ lạnh và suy nghĩ/tra cứu cách kết hợp món| Nhóm chốt được luồng tương lai: Chụp ảnh/Nhập 2 món sắp hỏng → AI gợi ý 2 lựa chọn trong 1 phút → Chốt món & nấu |
-| Problem Statement | Đề xuất không chỉ đo thời gian nghĩ món, mà phải đo cả lượng thức ăn thừa | Thời gian chốt món giảm từ 15 phút xuống dưới 2 phút |
-| Mức can thiệp AI | | |
-| Quyết định | | |
+| Pitch Problem Card | Pitch 3 candidate: Lọc CV ứng viên (#4), Nhận xét học sinh (#5), Trả lời tin nhắn khách (#6) | Giúp nhóm có thêm góc nhìn về các bài toán xử lý văn bản lặp lại để đối chiếu |
+| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: Đặt câu hỏi cho candidate #8 của Thịnh: "Vì sao cần giải bằng công nghệ khi một số thao tác có thể hướng dẫn bằng hình ảnh hoặc tài liệu đơn giản?" | Giúp nhóm nhận ra giải pháp cho bài #8 chủ yếu là No AI, củng cố thêm lý do chọn bài tủ lạnh (#3) |
+| Nhận phản biện | Câu hỏi tôi nhận được: Nhận câu hỏi từ Thắng và Thịnh: "Nhà trường có cho phép đưa điểm và nhận xét của học sinh lên ChatGPT không?" | Tôi đã sửa gì: Thấy bài #5 có rủi ro Viability cao về bảo mật dữ liệu, đồng thuận không chọn làm candidate chính của nhóm |
+| Gom cluster / cây OST | Tham gia phân loại candidate vào 4 cluster (A, B, C, D); hỗ trợ ghi chép biên bản thảo luận của nhóm | Giúp nhóm gom cụm D (quản lý đồ trong nhà & lãng phí) thành một nhánh rõ ràng |
+| Chọn candidate problem | Tham gia chấm điểm shortlist, ủng hộ chọn candidate #3 vì đề tài gần gũi và đo lường được bằng tiền | Nhóm đạt được sự đồng thuận cao khi chốt candidate #3 |
+| Kiểm chứng / research | Hỗ trợ khâu kiểm chứng giả định: tạo form poll ngắn gửi cho 6–8 người quen để khảo sát thói quen mở tủ lạnh và tần suất vứt bỏ đồ ăn hỏng | Thu thập thêm số liệu thực tế: đa số mọi người thừa nhận hay quên rau củ ở góc tủ dẫn đến bị hỏng |
+| Quy trình nhóm | Đóng góp ý kiến cho quy trình To-Be: nhấn mạnh bước người nấu mở tủ kiểm tra thực tế (HITL) | Nhóm xác định boundary quan trọng: AI không thể biết đồ còn tươi hay đã hỏng, người nấu phải tự kiểm |
+| Problem Statement | Góp ý cho phần Boundary: AI tuyệt đối không tự chốt món thay người nấu và cần lưu ý cảnh báo dị ứng | Giúp Problem Statement hoàn thiện hơn về mặt an toàn cho người dùng |
+| Mức can thiệp AI | Tham gia thảo luận về tính khả thi: đồng ý với mức Workflow, không cần làm Agent tự động hóa quá mức | Giúp nhóm giữ phạm vi giải pháp vừa sức, tập trung vào bước gợi ý món ăn |
+| Quyết định | Đồng ý với quyết định **Not Yet**: kiểm chứng bằng ghi chép sổ tay và No AI trước khi xây dựng AI | Tránh việc nhóm đầu tư công sức làm AI khi thói quen ghi chép danh sách đồ (bước A) chưa được chứng minh |
 
 ---
 
@@ -158,12 +158,12 @@ Rủi ro AI "bịa" thông tin (Hallucination): Để câu văn mượt mà, AI 
 
 | Checkpoint | Tôi dùng AI để làm gì? | AI hữu ích ở đâu? | AI sai hoặc hời hợt ở đâu? | Tôi sửa gì bằng nhận định của mình? |
 |---|---|---|---|---|
-| CP1 Scan | | | | |
-| CP2 Problem Card | | | | |
-| CP4 Research | | | | |
-| CP5 Quy trình | | | | |
-| CP5–6 Problem Statement | | | | |
-| CP6 Mức can thiệp / quyết định | | | | |
+| CP1 Scan | Dùng AI để gợi ý cách diễn đạt các vấn đề hàng ngày theo đúng cú pháp Job Story | Chuyển đổi các câu văn đời thường thành cấu trúc `Khi... tôi muốn... để...` chuẩn xác | Một số gợi ý bị lặp từ hoặc đưa công cụ giải pháp vào câu | Tự chỉnh sửa lại để câu văn thuần túy mô tả nỗi đau và bối cảnh thực tế |
+| CP2 Problem Card | Dùng AI để hỗ trợ ước lượng sơ bộ các bước thực hiện trong quy trình nháp | Giúp hình dung nhanh các bước từ lúc nhận việc đến khi hoàn thành | AI đưa ra số phút quá chi tiết mà chưa có đo đạc thật | Ghi chú lại đây chỉ là ước lượng ban đầu, cần kiểm chứng thêm qua thực tế |
+| CP4 Research | Nhờ AI giải thích khái niệm phương pháp phỏng vấn The Mom Test | Giúp hiểu nhanh nguyên lý: không hỏi ý kiến về tương lai, chỉ hỏi hành vi trong quá khứ | Đôi khi AI gợi ý các câu hỏi mang tính mớm cung ("Bạn có thích app...") | Lọc bỏ các câu hỏi mớm cung, giữ lại câu hỏi về lần gần nhất gặp sự cố |
+| CP5 Quy trình | Tham khảo AI cách phân định giữa hành động của người dùng (User) và hệ thống (System) | Giúp định hình rõ ranh giới con người kiểm tra (HITL) và AI gợi ý | AI có xu hướng gán cho AI khả năng tự nhận diện độ tươi ngon của đồ ăn | Nhận ra AI không thể ngửi hay sờ được đồ ăn, giữ nguyên việc kiểm tra an toàn cho con người |
+| CP5–6 Problem Statement | Dùng AI để kiểm tra lỗi chính tả và format bảng biểu Markdown | Trình bày bảng biểu ngay ngắn, chuẩn định dạng đề tài | Không có | Giữ nguyên nội dung đã thảo luận cùng nhóm |
+| CP6 Mức can thiệp / quyết định | Nhờ AI tóm tắt ngắn gọn sự khác biệt giữa Rule và Workflow trong bài toán này | Giúp phân biệt rõ: Rule sắp xếp theo hạn, Workflow kết hợp AI để ghép món | AI đôi khi đề xuất giải pháp Agent phức tạp không cần thiết | Kiên định cùng nhóm chọn mức Workflow đơn giản, phù hợp với năng lực sinh viên |
 
 ---
 
